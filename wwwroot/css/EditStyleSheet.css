@@ -1,0 +1,32 @@
+﻿body 
+{
+    background-image:url('../log-in.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.card
+{
+    background-color:transparent;
+    border:none;
+}
+
+.card-header
+{
+    
+    border:none;
+}
+
+.card-footer
+{
+    
+    border:none;
+}
+
+@media screen and (max-width:600px) {
+    .card
+    {
+        margin:100px 0px 0px 0px;
+        width:100%;
+    }
+}

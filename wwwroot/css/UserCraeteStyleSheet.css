@@ -1,0 +1,54 @@
+﻿body 
+{
+    background-image:url('../log-in.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+@media screen and (max-width:600px)
+{
+    .card
+    {
+        margin:100px 0px 0px 0px;
+        width:100%;
+    }
+}
+
+.btn 
+{
+    width: 160px;
+    height: 50px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 2s;
+}
+
+.btn:hover
+{
+    background-color:ghostwhite;
+    color:black;
+}
+
+.card
+{
+    background:none;
+    border:none;
+}
+
+.card-header
+{
+    border:none;
+    background:none;
+}
+
+.card-footer 
+{
+    border: none;
+    background: none;
+}
